@@ -14,7 +14,7 @@ bash download_and_extract.sh
 1. Data split and preprocess
 ```shell
 cd CodeGPT/dataset/py150/
-python load_py150.py
+python load_py150.py --base_dir /home/bxu22/Desktop/projects/mia/naturalcc/examples/code-membership-inference/py150_files --output_dir /home/bxu22/Desktop/projects/mia/naturalcc/examples/code-membership-inference/output
 ```
 2. Model training
 ```shell
