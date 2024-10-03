@@ -24,3 +24,6 @@ __pycache__/
 # notebook & test results
 /*.ipynb
 result.json
+
+
+venv/
